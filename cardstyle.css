@@ -1,0 +1,312 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	padding-left: 10%;
+	height: 700px;
+	margin-left: 2%;
+	margin-right: 2%;
+	
+
+}
+body{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.child1{
+	border: 2px solid black;
+	margin: 1%;
+	width:25%;
+	font-size: 25px;
+	border-radius: 10%;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 7%;
+	margin-bottom: 5%;
+	background-image: url("cardback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-style: italic;
+}
+.child1>img{
+	margin-top: 10%;
+	width: 50%;
+	height: 30%;
+	margin-bottom: 20%;
+	border:2px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+}
+.child2>img{
+	margin-top: 10%;
+	width: 50%;
+	height: 30%;
+	margin-bottom: 20%;
+	border:2px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+}
+img{
+
+	width: 80%;
+	border:2px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+}
+.btn1{
+	margin-top: 5%;
+	font-style: italic;
+	background-color: #09BAF9;
+	padding: 15px 32px;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	font-weight: bold;
+
+}
+.btn1:hover{
+	padding: 15px 40px;
+	background-color: blue;
+	font-weight: bold;
+}
+.child2{
+	border: 2px solid black;
+	
+	margin: 1%;
+	width:25%;
+	font-size: 25px;
+	border-radius: 10%;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	background-image: url("cardback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-style: italic;
+	
+}
+.btn2{
+	margin-top: 5%;
+	font-style: italic;
+	background-color: #09BAF9;
+	padding: 15px 32px;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	font-weight: bold;
+}
+.btn2:hover{
+	padding: 15px 40px;
+	background-color: blue;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	body{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	.child1{
+	border: 2px solid black;
+	height: 600px;
+	margin: 1%;
+	width:85%;
+	font-size: 15px;
+	border-radius: 10%;
+	text-align: center;
+	margin-top: 7%;
+	background-image: url("cardback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-style: italic;
+}
+.parent{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10%;
+	margin-right: 2%;
+	}
+.child2{
+	border: 2px solid black;
+	height: 600px;
+	margin: 1%;
+	width:85%;
+	font-size: 15px;
+	border-radius: 10%;
+	text-align: center;
+	margin-top: 7%;
+	margin-bottom: 5%;
+	background-image: url("cardback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-style: italic;
+	
+}
+.child1>img{
+	margin-top: 10%;
+	width: 50%;
+	height: 30%;
+	border:2px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+}
+.child2>img{
+	margin-top: 10%;
+	width: 50%;
+	height: 30%;
+	margin-bottom: 20%;
+	border:2px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+}
+.btn1{
+	margin-top: 5%;
+	font-style: italic;
+	background-color: #09BAF9;
+	padding: 8px 20px;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+.btn1:hover{
+	padding: 15px 30px;
+	background-color: blue;
+	font-weight: bold;
+}
+.btn2{
+	margin-top: 5%;
+	font-style: italic;
+	background-color: #09BAF9;
+	padding: 8px 20px;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.btn2:hover{
+	padding: 15px 30px;
+	background-color: blue;
+	font-weight: bold;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+		body{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	.child1{
+	border: 2px solid black;
+	height: 500px;
+	margin: 1%;
+	width:40%;
+	font-size: 20px;
+	border-radius: 10%;
+	text-align: center;
+	margin-top: 7%;
+	margin-right: 5%;
+	background-image: url("cardback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-style: italic;
+}
+.parent{
+	display: flex;
+	flex-direction:row;
+	padding-left: 10%;
+	margin-right: 2%;
+	}
+.child2{
+	border: 2px solid black;
+	height: 500px;
+	margin: 1%;
+	width:40%;
+	margin-right: 5%;
+	font-size: 20px;
+	border-radius: 10%;
+	text-align: center;
+	margin-top: 7%;
+	margin-bottom: 5%;
+	background-image: url("cardback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-style: italic;
+	
+}
+.child1>img{
+	margin-top: 10%;
+	width: 40%;
+	height: 25%;
+	border:2px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+}
+.child2>img{
+	margin-top: 10%;
+	width: 40%;
+	height: 25%;
+	margin-bottom: 20%;
+	border:2px solid black;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+}
+.btn1{
+	margin-top: 5%;
+	font-style: italic;
+	background-color: #09BAF9;
+	padding: 8px 20px;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+.btn1:hover{
+	padding: 15px 30px;
+	background-color: blue;
+	font-weight: bold;
+}
+.btn2{
+	margin-top: 5%;
+	font-style: italic;
+	background-color: #09BAF9;
+	padding: 8px 20px;
+	border: none;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.btn2:hover{
+	padding: 15px 30px;
+	background-color: blue;
+	font-weight: bold;
+}
+	}

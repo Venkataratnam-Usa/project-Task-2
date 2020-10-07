@@ -1,0 +1,142 @@
+#parent {
+    border : 4px solid orange;
+    display: flex;
+    margin: 2px;
+    height: 620px;
+}
+.child {
+    border: 4px solid lightgreen;
+    width:17%;
+    text-align:center;
+    padding: 3%;
+    margin: 3%;
+}
+.child>img{
+    height:50%;
+    width:50%;
+}
+.sv>img{
+    height:50%;
+    width:80%;
+}
+.resume{
+    border: 4px solid blue;
+    width: 80%;
+    margin: 3%;
+    margin-left: 0%;
+}
+.heading{
+    margin-left:2%;
+}
+.career>p{
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align:justify-all;
+}
+.academic{
+    height: 15%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align:justify-all;
+}
+.skills{
+    height: 17%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align:justify-all;
+}
+.declaration{
+    height:15%;
+    margin-left:10%;
+    margin-right:5%;
+    text-align:justify-all;
+}
+.venkat{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    margin:2%;
+    margin-bottom:-1%;
+    margin-top: 10%;
+    text-align:center;
+    text-decoration:none;
+}
+.github{
+    background:#3B5998;
+    color:white;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:blueviolet;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color:orange;
+  }
+  /*mobile view styles*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+	#parent{
+		display: inline-block;
+		margin: 1%;
+		height: 100%;
+	}
+	.child{
+		width: 85%;
+		height: 50%;
+		border-radius: 10%;
+	}
+	.resume{
+		width:90%;
+		margin:3%;
+		border-radius: 10%;
+	}
+}
+
+/*tab view*/
+@media screen and (min-width: 481px) and (max-width:768px){
+	#parent{
+		flex-wrap: wrap;
+		height: 100%;
+	}
+	.child{
+		display: flex;
+		justify-content:space-around;
+		width: 100%;
+		height: 30%;
+		border-radius: 10%;
+		
+	}
+	.resume{
+		width: 100%;
+		margin-left: 2%;
+		border-radius: 10%;
+	}
+	.pic{
+		width:30%;
+
+	}
+	
+	.fa{
+		
+		margin-top: -12%;
+		
+		
+	}
+	hr{
+		border-width: 0;
+	}
+	
+	
+	}

@@ -1,0 +1,169 @@
+
+.child1{
+	border:0;
+	padding: 1%;
+
+	margin-top: 0;
+	width:22%;
+	font-size: 18px;
+	margin-right: 0%;
+	text-align: center;
+	background-color: blue ;
+}
+
+.child2{
+	border:2px solid blue;
+	padding: 1%;
+	margin: 0%;
+	width:65%;
+	font-size: 22px;
+	
+
+}
+.hr1{
+	border:2px solid blue;
+}
+.hr2{
+	border:2px solid blue;
+	
+}
+.hr3{
+	border:2px solid blue;
+	
+}
+
+.parent{
+	display: flex;
+	flex-direction: row;
+	border:0;
+	opacity: 1;
+	margin:10%;
+	margin-top: 3%;
+	
+}
+
+img{
+	margin-top: 2%;
+	width: 60%;
+	border:2px solid black;
+	border-radius: 10%;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+.child1{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 2%;
+	width:91%;
+	font-size: 15px;
+	border-radius: 10%;
+	text-align: center;
+	background-color: skyblue;
+}
+
+.child2{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 2%;
+	width:91%;
+	font-size: 15px;
+	border-radius: 10%;
+	background-color: skyblue;
+
+}
+
+.parent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin:2%;
+
+}
+
+img{
+	width: 60%;
+	border:2px solid black;
+	border-radius: 10%;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	box-shadow: 3px 4px 5px red;
+
+}
+.hr1{
+	border:2px solid black;
+}
+.hr2{
+	border:2px solid black;
+	
+}
+.hr3{
+	border:2px solid black;
+	
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.child1{
+	
+	padding: 1%;
+	margin: 1%;
+	width:35%;
+	font-size: 17px;
+	margin-right: 0%;
+	text-align: center;
+	border: 0;
+	background-color:#f4c2c2;
+}
+.hr1{
+	border:2px solid #f4c2c2;
+}
+.hr2{
+	border:2px solid #f4c2c2;
+	
+}
+.hr3{
+	border:2px solid #f4c2c2;
+	
+}
+
+.child2{
+	
+	padding: 1%;
+	margin: 1%;
+	width:60%;
+	font-size: 15px;
+	margin-left: 0%;
+	border: 0;
+	
+
+}
+
+.parent{
+	display: flex;
+	flex-direction:row;
+
+	padding: 1%;
+	margin:1%;
+	height: 100%;
+}
+
+img{
+	width: 60%;
+	height: 150px;
+	border:2px solid black;
+	border-radius: 10%;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 20px;
+	box-shadow: 3px 4px 5px red;
+
+}	
+}
